@@ -1,0 +1,33 @@
+.card-list {
+	width: 80%;
+	border: 1px solid rgba(0, 0, 0, 0.175);
+	border-radius: 6px;
+	margin: 0 auto;
+	padding: 30px 40px;
+	min-height: 50vh;
+}
+
+.card-list__items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px;
+	margin-top: 50px;
+}
+
+.card-list__empty {
+	font-size: 2rem;
+	text-align: center;
+	margin-top: 50px;
+}
+
+@media (max-width: 576px) {
+	.card-list {
+		padding: 30px 20px;
+		width: 95%;
+	}
+	.card-list__empty {
+		font-size: 1.5rem;
+		margin-top: 20px;
+	}
+}

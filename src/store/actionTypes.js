@@ -1,0 +1,3 @@
+export const LOAD_CARDS_DATA = "LOAD_CARDS_DATA";
+export const SET_FAVORITE_CARD = "SET_FAVORITE_CARD";
+export const DELETE_CARD = "DELETE_CARD";

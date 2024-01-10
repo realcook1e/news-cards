@@ -1,0 +1,13 @@
+.card-filter {
+	text-align: center;
+	margin-top: 25px;
+}
+
+@media (max-width: 576px) {
+	.btn-group {
+		width: 100%;
+	}
+	.btn {
+		font-size: 14px;
+	}
+}
